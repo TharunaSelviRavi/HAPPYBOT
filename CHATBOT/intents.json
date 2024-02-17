@@ -1,0 +1,179 @@
+{"intents": [
+    {
+        "tag": "medical_inquiry",
+        "patterns": [
+            "I've been experiencing abdominal pain.",
+            "Can you provide information on heart health?",
+            "What are the symptoms of the common cold?",
+            "Tell me about the flu vaccine.",
+            "I have a skin rash. What could it be?",
+            "How can I lower my cholesterol levels?",
+            "What's the recommended daily water intake?"
+        ],
+        "responses": [
+            "I'm not a doctor, but I can offer general information. For personalized advice, please consult with a healthcare professional.",
+            "Heart health is crucial. Regular exercise and a balanced diet contribute to a healthy heart.",
+            "Common cold symptoms include sneezing, coughing, and a runny nose. Rest and hydration are often recommended.",
+            "The flu vaccine is designed to protect against influenza viruses. Consult your healthcare provider for vaccination advice.",
+            "Skin rashes can have various causes. It's best to see a dermatologist for a proper diagnosis and treatment plan.",
+            "To lower cholesterol, consider a diet rich in fruits, vegetables, and whole grains. Consult your doctor for personalized guidance.",
+            "The recommended daily water intake varies, but staying hydrated is important. Consult with a healthcare professional for personalized advice."
+        ]
+    },
+    {
+        "tag": "appointment_request",
+        "patterns": [
+            "I need to schedule a doctor's appointment.",
+            "How can I book an appointment with a specialist?",
+            "Can you help me find a nearby clinic?",
+            "What's the process for scheduling a telehealth appointment?",
+            "I want to see a dentist. How do I go about it?",
+            "Do you have any recommendations for a good primary care physician?"
+        ],
+        "responses": [
+            "I can't schedule appointments, but you can contact local clinics or use online platforms to book appointments with healthcare providers.",
+            "To find a nearby clinic, you can use online directories or ask for recommendations from friends and family.",
+            "Telehealth appointments can be scheduled through healthcare provider websites or telemedicine platforms.",
+            "To see a dentist, you can contact dental clinics in your area and inquire about appointment availability.",
+            "For a primary care physician, consider asking for recommendations from your insurance provider or using online healthcare directories."
+        ]
+    },
+    {
+        "tag": "medication_information",
+        "patterns": [
+            "Tell me about common pain relievers.",
+            "What are the side effects of antibiotics?",
+            "How do I properly take my prescription medication?",
+            "Can you recommend an over-the-counter cold medicine?",
+            "I'm allergic to certain medications. What should I do?",
+            "What are the alternatives to painkillers?"
+        ],
+        "responses": [
+            "I can provide general information, but it's important to consult your pharmacist or healthcare provider for personalized advice on medications.",
+            "Common pain relievers include acetaminophen and ibuprofen. Always follow dosage instructions and consult a healthcare professional if you have concerns.",
+            "It's crucial to follow your prescription medication instructions precisely. If you have questions, consult with your prescribing doctor or pharmacist.",
+            "Over-the-counter cold medicines may include decongestants and antihistamines. Read labels carefully and consult with a pharmacist if you have specific health conditions.",
+            "If you have medication allergies, inform your healthcare provider and pharmacist. They can recommend alternatives that are safe for you.",
+            "Alternatives to painkillers may include physical therapy, acupuncture, or other non-pharmacological approaches. Consult with your healthcare provider for guidance."
+        ]
+    },
+    {
+        "tag": "emergency",
+        "patterns": [
+            "I need urgent medical help.",
+            "This is an emergency!",
+            "Can you call 911 for me?",
+            "I'm having chest pain!",
+            "Someone is unconscious!",
+            "What do I do in a medical emergency?"
+        ],
+        "responses": [
+            "I'm not equipped to handle emergencies. Call emergency services immediately by dialing 911 or your local emergency number.",
+            "For urgent medical assistance, please call 911 or visit the nearest emergency room.",
+            "I'm not a substitute for professional help. Dial 911 or go to the emergency room if it's an emergency.",
+            "Chest pain can be a serious symptom. Call 911 or seek emergency medical attention right away.",
+            "If someone is unconscious, call for emergency help immediately. Perform CPR if trained.",
+            "In a medical emergency, prioritize getting professional help. Call 911 for immediate assistance."
+        ]
+    },
+    {
+        "tag": "mental_health",
+        "patterns": [
+            "I've been feeling really down lately.",
+            "Can you help with mental health advice?",
+            "Tell me about coping with stress.",
+            "I think I might have anxiety. What should I do?",
+            "Do you have tips for improving mental well-being?",
+            "I'm going through a tough time emotionally."
+        ],
+        "responses": [
+            "I'm not a mental health professional, but reaching out to a mental health professional or counselor can provide valuable support.",
+            "Mental health is important. Consider talking to a mental health professional for personalized guidance.",
+            "Coping with stress may involve relaxation techniques, mindfulness, and seeking support from friends and family.",
+            "If you suspect anxiety, consulting with a mental health professional for a proper diagnosis and treatment plan is recommended.",
+            "Improving mental well-being may include self-care practices, maintaining social connections, and seeking professional help when needed.",
+            "It's important to prioritize your emotional well-being. Consider reaching out to a mental health professional for support."
+        ]
+    },
+    {
+        "tag": "diet_and_nutrition",
+        "patterns": [
+            "Tell me about a healthy diet.",
+            "What foods can help boost my immune system?",
+            "I want to lose weight. Any tips?",
+            "Do you have advice for a vegetarian diet?",
+            "What are the benefits of staying hydrated?",
+            "Can you recommend a balanced meal plan?"
+        ],
+        "responses": [
+            "A healthy diet includes a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats.",
+            "Foods rich in vitamins and antioxidants, such as fruits and vegetables, can support immune health.",
+            "Losing weight often involves a combination of a balanced diet and regular physical activity. Consult a healthcare professional for personalized advice.",
+            "A vegetarian diet can be healthy with proper planning to ensure you get essential nutrients. Consider consulting with a nutritionist.",
+            "Staying hydrated is essential for overall health. It helps with digestion, temperature regulation, and nutrient transport.",
+            "For a balanced meal plan, consider incorporating a mix of vegetables, lean proteins, whole grains, and healthy fats. Consult with a nutritionist for personalized advice."
+        ]
+    },
+    {
+        "tag": "exercise_and_fitness",
+        "patterns": [
+            "Tell me about effective workout routines.",
+            "How often should I exercise?",
+            "Can you recommend exercises for back pain relief?",
+            "What are the benefits of regular physical activity?",
+            "I want to start a fitness routine. Where do I begin?",
+            "Is there an ideal time to exercise during the day?"
+        ],
+        "responses": [
+            "Effective workout routines vary, but a mix of cardiovascular, strength, and flexibility exercises is often recommended.",
+            "The frequency of exercise depends on your fitness goals. Consult with a fitness professional for personalized advice.",
+            "Exercises like gentle stretching and strengthening exercises may help with back pain. However, consult with a healthcare professional for proper guidance.",
+            "Regular physical activity has numerous benefits, including improved cardiovascular health, weight management, and mood enhancement.",
+            "Starting a fitness routine can begin with activities you enjoy, such as walking, swimming, or cycling. Gradually increase intensity over time.",
+            "The ideal time to exercise depends on personal preferences and schedule. The key is consistency. Find a time that works best for you and stick to it."
+        ]
+    },
+    {
+        "tag": "pregnancy",
+        "patterns": [
+            "I just found out I'm pregnant. What should I do?",
+            "Tell me about prenatal care.",
+            "Are there specific foods to avoid during pregnancy?",
+            "What are common pregnancy symptoms?",
+            "Can I exercise during pregnancy?",
+            "I'm experiencing morning sickness. Any remedies?"
+        ],
+        "responses": [
+            "Congratulations on your pregnancy! Schedule an appointment with an obstetrician for prenatal care and guidance.",
+            "Prenatal care is crucial for a healthy pregnancy. Regular check-ups, proper nutrition, and lifestyle adjustments may be recommended.",
+            "Avoiding certain foods, such as raw seafood and unpasteurized products, is advised during pregnancy. Consult with your healthcare provider for specific guidelines.",
+            "Common pregnancy symptoms include fatigue, nausea, and changes in appetite. However, experiences vary. Consult your healthcare provider with any concerns.",
+            "Exercise during pregnancy is generally safe, but it's essential to consult with a healthcare provider for personalized advice based on your health and pregnancy status.",
+            "For morning sickness, try eating small, frequent meals and staying hydrated. Ginger and acupressure may also provide relief. Consult with your healthcare provider for severe symptoms."
+        ]
+    },
+    {
+        "tag": "medication_side_effects",
+        "patterns": [
+            "I'm experiencing side effects from my medication. What should I do?",
+            "Can you tell me about common side effects of antibiotics?",
+            "How long do side effects of medication usually last?",
+            "Are there natural remedies for medication side effects?",
+            "Should I stop taking my medication if I experience side effects?",
+            "I'm allergic to a medication. What alternatives are there?"
+        ],
+        "responses": [
+            "Experiencing side effects is not uncommon. Consult with your healthcare provider to discuss your symptoms and potential adjustments to your medication.",
+            "Common side effects of antibiotics may include nausea, diarrhea, or allergic reactions. Contact your healthcare provider if you experience severe side effects.",
+            "The duration of side effects varies. Consult with your healthcare provider to determine if the side effects are expected to subside or if a change in medication is necessary.",
+            "Natural remedies may help alleviate certain side effects. However, always consult with your healthcare provider before trying alternative approaches.",
+            "Do not stop taking prescribed medication without consulting your healthcare provider. They can provide guidance on managing side effects or adjusting your treatment plan.",
+            "If you're allergic to a medication, inform your healthcare provider immediately. They can recommend alternative medications that are safe for you."
+        ]
+    }
+    
+    
+    
+    ]
+
+}
